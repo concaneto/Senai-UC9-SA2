@@ -30,23 +30,44 @@
                 <a href=""><img src="img/insta.png" alt="Instragram"></a>
                 <a href=""><img src="img/fb.png" alt="Facebook"></a>
                 <a href=""><img src="img/twitter.png" alt="twitter"></a>
+            </div>
+        </div>
+
+        <div class="header-top-mobile">
+            <div class="header-search-mobile">
+                <a href="" id="barras" class="barras"><img src="img/menu.png" alt=""></a>
+                <input type="text" value="buscar" id="header-search">
+            </div>
+            <div class="logo-social">
+                <div class="header-logo">
+                    <a href="index.html"><img src="img/logo branco.png" alt="Game Mania" id="logo-header"></a>
+                </div>
+                <div class="header-social-media">
+                    <a href=""><img src="img/insta.png" alt="Instragram"></a>
+                    <a href=""><img src="img/fb.png" alt="Facebook"></a>
+                    <a href=""><img src="img/twitter.png" alt="twitter"></a>
+                </div>
 
             </div>
+
+
         </div>
         <div class="dash">
 
+
+
         </div>
         <div class="header-botton row">
-            <nav id="menu" class="menu col-9">
+            <nav id="menu" class="menu col-12">
                 <a href="">Quem somos</a>
                 <a href="">Produtos</a>
                 <a href="">Notícias</a>
+                <a href="login.html" id="user-icon">Login</a>
             </nav>
-            <a href="" id="barras" class="barras"><img src="img/bars.svg" alt=""></a>
 
-
-            <a href="login.html" id="user-icon" class="header-menu col-1"><img href="img/user.png" alt=" ">Login</a>
+            <!-- trocar class de "menu" para "menu-ativo" -->
         </div>
+
     </div>
 </header>
 <!-- ------------------------ -->
@@ -57,10 +78,8 @@
         <div class="dash">
 
         </div>
-        <div class="banner-slide">
-            <div class="banner-chamada">
-                <h2>IMPERDÍVEL! </h2>
-            </div>
+        <!-- <div class="banner-slide">
+            
             <div class="banner-img">
                 <a href=""><img src="img/PS5.png" alt="Playstation 5">
                 </a>
@@ -70,50 +89,58 @@
                 <h3>Playstation 5 <br> por apenas R$4.990,00</h3>
                 <h5>ou 12x de 450,00</h5>
             </div>
+        </div> -->
+
+        <div id="carrosel" class="carrosel">
+            <img src="img/Banner1.png" alt="">
+            <img src="img/vr.png" alt="">
+            <img src="img/Logo-branco.png" alt="">
+
         </div>
         <!-- fim do banner -->
         <section class="secao-promo">
-            <div class="promo-card col-4">
+            <div id="promo-card" class="promo-card">
                 <a href=""><img src="img/vr.png" alt="promo 1"></a>
                 <h3> Óculos de realidade virtual</h3> <br>
                 <h4>de R$ 10.099,00<br>
                     por R$ 8.999,00</h4> <br>
                 <h5>ou 12x de 799,90</h5>
             </div>
-            <div class="promo-card col-4">
+            <div class="promo-card">
                 <a href=""><img src="img/vr.png" alt="promo 1"></a>
                 <h3> Óculos de realidade virtual</h3> <br>
                 <h4>de R$ 10.099,00<br>
                     por R$ 8.999,00</h4> <br>
                 <h5>ou 12x de 799,90</h5>
             </div>
-            <div class="promo-card col-4">
+            <div class="promo-card">
                 <a href=""><img src="img/vr.png" alt="promo 1"></a>
                 <h3> Óculos de realidade virtual</h3> <br>
                 <h4>de R$ 10.099,00<br>
                     por R$ 8.999,00</h4> <br>
                 <h5>ou 12x de 799,90</h5>
             </div>
-            <div class="promo-card col-4">
+            <div class="promo-card">
                 <a href=""><img src="img/vr.png" alt="promo 1"></a>
                 <h3> Óculos de realidade virtual</h3> <br>
                 <h4>de R$ 10.099,00<br>
                     por R$ 8.999,00</h4> <br>
                 <h5>ou 12x de 799,90</h5>
             </div>
-            <div class="promo-card col-4">
+            <div class="promo-card promo-card-dsk">
                 <a href=""><img src="img/vr.png" alt="promo 1"></a>
                 <h3> Óculos de realidade virtual</h3> <br>
                 <h4>de R$ 10.099,00<br>
                     por R$ 8.999,00</h4> <br>
                 <h5>ou 12x de 799,90</h5>
             </div>
-            <div class="promo-card col-4">
+            <div class="promo-card promo-card-dsk">
                 <a href=""><img src="img/vr.png" alt="promo 1"></a>
                 <h3> Óculos de realidade virtual</h3> <br>
                 <h4>de R$ 10.099,00<br>
                     por R$ 8.999,00</h4> <br>
                 <h5>ou 12x de 799,90</h5>
+
             </div>
         </section>
         <section>
@@ -153,37 +180,43 @@
     <div class="container-footer">
         <div class="footer-menu">
             <div class="footer-menu-lista">
-                <h2 >Produtos</h2>
-                <a href="" >Teclados</a>
-                <a href="" >Mouses</a>
-                <a href="" >Caderias</a>
-                <a href="" >Acessórios</a>
+                <h2 id="seta-produtos">Produtos<img class="menu-seta" src="img/Polygon 1.png" alt=""></h2>
+                <div id="produtos-links" class="produtos-links">
+                    <a href="">Teclados</a>
+                    <a href="">Mouses</a>
+                    <a href="">Caderias</a>
+                    <a href="">Acessórios</a>
+                </div>
             </div>
             <div class="footer-menu-lista">
-                <h2>Noticias</h2>
-                <a href="" >Campeonatos</a>
-                <a href="" >Atualizações</a>
-                <a href="" >Games</a>
+                <h2 id="seta-noticias">Noticias<img class="menu-seta" src="img/Polygon 1.png" alt=""></h2>
+                <div  id="noticias-links"  class="noticias-links">
+                    <a href="">Campeonatos</a>
+                    <a href="">Atualizações</a>
+                    <a href="">Games</a>
+                </div>
             </div>
             <div class="footer-menu-lista">
-                <h2>Suporte</h2>
-                <a href="" >FAQs</a>
-                <a href="" >Frete</a>
-                <a href="" >Pagamentos</a>
-                <a href="" >Devoluções</a>
-                <a href="" >Rastreie seu pedido</a>
+                <h2 id="seta-suporte">Suporte<img class="menu-seta" src="img/Polygon 1.png" alt=""></h2>
+                <div  id="sup-links"  class="sup-links">
+                    <a href="">FAQs</a>
+                    <a href="">Frete</a>
+                    <a href="">Pagamentos</a>
+                    <a href="">Devoluções</a>
+                    <a href="">Rastreie seu pedido</a>
+                </div>
             </div>
         </div>
         <div class="footer-icons">
             <div class="footer-logo">
-            <a href="index.html"><img src="img/logo-preto.png" alt=""></a>
+                <a href="index.html"><img src="img/logo-preto.png" alt=""></a>
             </div>
             <div class="footer-pagamentos">
                 <a id="pag-seguro" href="index.html"><img src="img/pag-seguro.png" alt=""></a>
                 <a id="pagamentos" href="index.html"><img src="img/pagamentos.png" alt=""></a>
             </div>
             <div class="siteprotegido">
-            <a id="siteprotegido" href="index.html"><img src="img/site-protegido.png" alt=""></a>
+                <a id="siteprotegido" href="index.html"><img src="img/site-protegido.png" alt=""></a>
             </div>
         </div>
 
@@ -192,7 +225,7 @@
     </div>
 </footer>
 <!-- ------------SCRIPT------------- -->
-<script src="JS/script.js"></script>
 <script src="JS/jquery-3.6.0.js"></script>
+<script src="JS/script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">

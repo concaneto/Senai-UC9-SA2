@@ -43,7 +43,7 @@
 .login-box-shuffle {
     height: 98%;
     width: 700px;
-    background-color: #003008;
+    background-color: #0e9c95;
     display: flex;
     flex-direction: column;
     padding-left: 75px;
@@ -58,7 +58,7 @@
     align-items: center;
 }
 
-.login-box h2 {
+.login-box h2, .login-box-shuffle h2 {
     height: 35px;
     color: white;
     font-size: 20px;
@@ -67,7 +67,7 @@
     margin-top: 20px;
 }
 
-.login-box p {
+.login-box p, .login-box-shuffle p {
     height: 30px;
     color: white;
     font-size: 20px;
@@ -77,7 +77,7 @@
     margin-top: 20px; 
 }
 
-.login-box input {
+.login-box input , .login-box-shuffle input {
     background-color: #82899F;
     width: 70%;
     height: 40px;
